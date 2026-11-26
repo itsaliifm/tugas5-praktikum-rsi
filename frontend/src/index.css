@@ -1,0 +1,58 @@
+/* Variabel warna dan gaya dasar */
+:root {
+  /* Palet "Hijau Daun Pisang" */
+  --primary: #2f7a4b;
+  --primary-hover: #235c39;
+  --primary-soft: #e6f2ea;
+  --text: #1d2a22;
+  --text-muted: #5d6b61;
+  --bg: #f6f8f3;
+  --surface: #ffffff;
+  --border: #dde6da;
+  --danger: #b4321f;
+  --danger-soft: #fbeae6;
+  --success: #2f7a4b;
+  --success-soft: #e6f2ea;
+  --warning: #8a6100;
+  --warning-soft: #fdf0c8;
+  --radius: 8px;
+  --shadow: 0 1px 2px rgba(29, 42, 34, 0.05), 0 6px 16px rgba(29, 42, 34, 0.05);
+
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  color-scheme: light;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--primary);
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
