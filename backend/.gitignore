@@ -1,0 +1,4 @@
+.env
+node_modules/
+src/docs/swagger-output.json
+drizzle/
